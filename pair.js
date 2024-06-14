@@ -59,10 +59,7 @@ router.get('/', async (req, res) => {
                let SIGMA_MD_TEXT = `
 
 
-*_Hey there, Web-Slinger! Your Spidey senses must be tingling because you've successfully connected to WhatsApp, and the other message, which is your session I'd, has been generated. Just one more step before you can swing into action  with your friendly neighborhood chat-master, Miles Morales! Just remember, with great power comes great responsibility_*
-
-
-`
+*_Hey there, Web-Slinger! Your Spidey senses must be tingling because you've successfully connected to WhatsApp, and the other message, which is your session I'd, has been generated. Just one more step before you can swing into action  with your friendly neighborhood chat-master, Miles Morales! Just remember, with great power comes great responsibility_*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
