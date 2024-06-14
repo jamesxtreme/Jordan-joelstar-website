@@ -57,10 +57,9 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*_🕸𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝚒𝚍 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚍 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚙𝚊𝚒𝚛 𝚌𝚘𝚍𝚎 🕷_*
-*_𝚃𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚋𝚎𝚐𝚒𝚗𝚗𝚒𝚗𝚐 𝚘𝚏 𝚢𝚘𝚞𝚛 𝚕𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝚊𝚍𝚟𝚎𝚗𝚝𝚞𝚛𝚎 𝚠𝚒𝚝𝚑 𝙼𝚒𝚕𝚎𝚜 _*
 
-_𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛- https://t.ly/GGqOn_`
+
+*_Hey there, Web-Slinger! Your Spidey senses must be tingling because you've successfully connected to WhatsApp, and the other message, which is your session I'd, has been generated. Just one more step before you can swing into action  with your friendly neighborhood chat-master, Miles Morales! Just remember, with great power comes great responsibility_*`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
